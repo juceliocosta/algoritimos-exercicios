@@ -21,7 +21,15 @@
 
 - [ ] Faça um programa que recebe o valor de x e imprime o valor de y de acordo com as condições abaixo.
 
-![](../img/condicao.jpg)
+$$
+y =
+\begin{cases} 
+1, & \text{se } x \leq 1 \\
+2, & \text{se } 1 < x \leq 2 \\
+x^2, & \text{se } 2 < x \leq 3 \\
+x^3, & \text{se } x > 3
+\end{cases}
+$$
 
 - [ ] Construa um programa que calcule e apresente quanto deve ser pago por um produto considerando a leitura do preço da etiqueta (PE) e o código de pagamento (CP). Utilize para os cálculos a tabela de condições de pagamento a seguir:
 
