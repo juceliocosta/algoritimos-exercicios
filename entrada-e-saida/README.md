@@ -1,11 +1,11 @@
 # Algoritmos e Programação
 ## Exercícios de Entrada e Saída (1,0 ponto)
 
-- [ ] Escreva um algoritmo que leia um número inteiro positivo e exiba o dobro do mesmo.
+- [x] Escreva um algoritmo que leia um número inteiro positivo e exiba o dobro do mesmo.
 
-- [ ] Elabore um algoritmo que calcule a média aritmética de quatro números reais informados pelo usuário. A média deve ser impressa com 3 casas decimais.
+- [x] Elabore um algoritmo que calcule a média aritmética de quatro números reais informados pelo usuário. A média deve ser impressa com 3 casas decimais.
 
-- [ ] Escreva um algoritmo que leia duas variáveis inteiras e troque o conteúdo entre elas e imprima o novo valor das variáveis. Atenção: o conteúdo das variáveis TEM que ser trocado.
+- [x] Escreva um algoritmo que leia duas variáveis inteiras e troque o conteúdo entre elas e imprima o novo valor das variáveis. Atenção: o conteúdo das variáveis TEM que ser trocado.
 
 - [ ] Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável SOMA. Imprima a mensagem "SOMA" com todas as letras maiúsculas, com um espaço em branco antes e depois da igualdade seguido pelo valor correspondente à soma de A e B. Exemplo de saída: SOMA = 3
 
