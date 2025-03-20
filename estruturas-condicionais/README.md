@@ -1,15 +1,26 @@
 - [ ] Escreva um algoritmo para ler um número e determinar se ele é maior, igual ou menor que zero.
+
 - [ ] Faça um programa que leia um valor inteiro e diga se o valor é par ou ímpar.
+
 - [ ] Escreva um algoritmo que leia dois números e exiba o maior deles.
+
 - [ ] Elabore um algoritmo que leia três valores inteiros e calcule a soma do menor valor com o maior.
+
 - [ ] Escreva um algoritmo que leia dois números e exiba-os em ordem crescente.
+
 - [ ] Faça um programa que leia dois valores inteiros A e B. Se os valores forem iguais, deverá se somar os dois, caso contrário,multiplique A por B. Ao final do cálculo escrever o resultado.
+
 - [ ] Uma empresa abriu uma linha de crédito para os seus funcionários. O valor máximo da prestação não poderá ultrapassar 30% do salário bruto. Faça um programa em C que permita entrar com o salário bruto e o valor da prestação e informar se o empréstimo pode ou não ser concedido.
+
 - [ ] Elabore um algoritmo que leia quatro valores inteiros exiba a média aritmética entre eles. O algoritmo também deve exibir os números menores e maiores do que a média.
+
 - [ ] Tendo como dados de entrada a altura e o sexo de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
+
 - Para homens: (72.7 * h) – 58
 - Para mulheres (62.1 * h) – 44.7
+
 - [ ] Faça um programa que recebe o valor de x e imprime o valor de y de acordo com as condições abaixo.
+
 ![](../img/condicao.jpg)
 
 - [ ] Construa um programa que calcule e apresente quanto deve ser pago por um produto considerando a leitura do preço da etiqueta (PE) e o código de pagamento (CP). Utilize para os cálculos a tabela de condições de pagamento a seguir:
@@ -22,6 +33,7 @@
 |4|Em 3 vezes, preço de etiqueta com acréscimo de 10%|
 
 - [ ] Faça um programa para receber o comprimento de 3 pedaços de madeira e mostrar uma mensagem caso eles formem um triângulo. Dica: o comprimento de cada lado de um triângulo sempre é menor que a soma dos dois lados restantes.
+
 - [ ] Faça um programa para calcular e mostrar o salário reajustado de um funcionário. O percentual de aumento encontra-se na tabela a seguir.
 
 |Salário|% de Aumento|
@@ -61,9 +73,11 @@
 - [ ] Escrever um algoritmo que lê um valor monetário, sem os centavos, e calcula qual o menor número possível de notas de 100, 50, 20, 10, 5, 2 e 1 em que o valor lido pode ser decomposto. Escrever o valor lido e a relação de notas, e quantidade, necessárias. Exemplo:
 
 **Entrada:**
+
 546
 
 **Saída:**
+
 5 notas de 100.00
 2 notas de 20.00
 1 notas de 5.00
