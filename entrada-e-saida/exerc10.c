@@ -3,7 +3,6 @@
 int main() {
     int hora, min, total_min;
 
-    // Solicitar entrada
     printf("Digite a hora (0 a 24): ");
     scanf("%i", &hora);
     printf("Digite os minutos: ");

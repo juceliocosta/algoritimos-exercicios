@@ -26,7 +26,7 @@ Escreva um algoritmo que lê do teclado a medida do raio de uma circunferência 
 
 - [x] 12. João tem um problema com os números. Ele sempre escreve números de quatro algarismos de trás para frente (o número 1234 ele escreve 4321). Escreva um algoritmo que imprima invertidos os números de quatro algarismos.
 
-- [ ] 13. Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em uma fábrica, e imprima no formato horas:minutos:segundos. Por exemplo, para entrada 555 o programa deve imprimir 0:9:15
+- [x] 13. Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em uma fábrica, e imprima no formato horas:minutos:segundos. Por exemplo, para entrada 555 o programa deve imprimir 0:9:15
 
 - [ ] 14. Dois carros (X e Y) partem em uma mesma direção. O carro X sai com velocidade constante de 60 Km/h e o carro Y sai com velocidade constante de 90 Km/h. Em uma hora (60 minutos) o carro Y consegue se distanciar 30 quilômetros do carro X, ou seja, consegue se afastar um quilômetro a cada 2 minutos. -[ ] 15. Leia a distância (em Km) e calcule quanto tempo leva (em minutos) para o carro Y tomar essa distância do outro carro.
 - [ ] 16. Faça um programa que leia dois números inteiros e imprima no formato de CEP. Exemplo
