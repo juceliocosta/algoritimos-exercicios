@@ -1,22 +1,15 @@
 #include <stdio.h>
-#include <string.h>
 
-int main() {
-    char str[5], temp;
+int main(){
+	float potencia = 18;
+    float largura, profundidade, iluminacao_total;
 
-    printf("Informe um número com 4 dígitos: ");
-    scanf("%4s", str);
+    printf("informe a largura da sala: ");
+    scanf("%f",&largura);
+    printf("informe a profundidade da sala: ");
+    scanf("%f",&profundidade);
 
-    
-    temp = str[0];
-    str[0] = str[3];
-    str[3] = temp;
-
-    temp = str[1];
-    str[1] = str[2];
-    str[2] = temp;
-
-    printf("Número invertido: %s\n", str);
-
+    iluminacao_total = largura * profundidade * potencia;
+    printf("precisa-se de %.0fW", iluminacao_total);
     return 0;
 }

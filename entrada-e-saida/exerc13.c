@@ -2,15 +2,21 @@
 #include <string.h>
 
 int main() {
-    int horas, minutos, segundos, resto_dos_segundos;
-    printf("informe um valor inteiro: ");
-    scanf("%i", &segundos);
+    char str[5], temp;
 
-    horas = segundos / 3600;
-    resto_dos_segundos = segundos % 3600;
-    minutos = resto_dos_segundos / 60;
-    segundos = resto_dos_segundos % 60;
+    printf("Informe um número com 4 dígitos: ");
+    scanf("%4s", str);
 
-    printf("%i:%i:%i \n",horas,minutos,segundos);
+    
+    temp = str[0];
+    str[0] = str[3];
+    str[3] = temp;
+
+    temp = str[1];
+    str[1] = str[2];
+    str[2] = temp;
+
+    printf("Número invertido: %s\n", str);
+
     return 0;
 }

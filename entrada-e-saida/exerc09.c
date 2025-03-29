@@ -1,22 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int numero, centena, dezena, unidade, invertido;
+    float base, altura, area;
+    printf("informe a base e altura do triângulo: \n");
+    scanf("%f", &base);
+    scanf("%f", &altura);
 
-    printf("Digite um número inteiro de 3 dígitos: ");
-    scanf("%d", &numero);
+    area = (base * altura)/2;
 
-    centena = (numero / 100);
-    printf("centena = %i \n",centena*100);
-    dezena = ((numero % 100) / 10);
-    printf("dezena = %i \n",dezena*10);
-    unidade = numero % 10;
-    printf("unidade = %i \n",unidade);
-
-    // Inverter número
-    invertido = centena + dezena*10 + unidade*100;
-
-    printf("O número invertido é: %d\n", invertido);
-
+    printf("Area do triangulo =: %.2f\n", area); 
     return 0;
 }

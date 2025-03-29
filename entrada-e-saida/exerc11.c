@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-int main(){
-	float potencia = 18;
-    float largura, profundidade, iluminacao_total;
+int main() {
+    int hora, min, total_min;
 
-    printf("informe a largura da sala: ");
-    scanf("%f",&largura);
-    printf("informe a profundidade da sala: ");
-    scanf("%f",&profundidade);
+    printf("Digite a hora (0 a 24): ");
+    scanf("%i", &hora);
+    printf("Digite os minutos: ");
+    scanf("%i", &min);
 
-    iluminacao_total = largura * profundidade * potencia;
-    printf("precisa-se de %.0fW", iluminacao_total);
+    total_min = (hora*60)+min;
+    printf("Se passaram %i minutos.", total_min);
+
     return 0;
 }

@@ -1,13 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    float base, altura, area;
-    printf("informe a base e altura do triângulo: \n");
-    scanf("%f", &base);
-    scanf("%f", &altura);
+    float n1, n2, n3;
+    printf("informe suas notas: \n");
+    scanf("%f", &n1);
+    scanf("%f", &n2);
 
-    area = (base * altura)/2;
+    //((n1*4)+(n2*5)+(n3*6))/15 = 70
+    //(n1*4)+(n2*5)+(n3*6) = 70*15
+    //(n2*5)+(n3*6) = 70*15 - (n1*4)
+    // n3*6 = 70*15 - (n1*4)-(n2*5)
+    n3 = (70*15 - (n1*4)-(n2*5))/6;
 
-    printf("Area do triangulo =: %.2f\n", area); 
+    printf("Precisa de pelo menos =: %.2f\n", n3); 
     return 0;
 }
