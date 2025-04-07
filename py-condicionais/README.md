@@ -19,3 +19,5 @@ Seu programa deve solicitar ao usuário que digite a temperatura em Celsius. Em 
 - [x]9. Escreva um programa que leia dois números e que pergunte qual operação você deseja realizar. Você deve poder calcular a soma (+), subtração (-), multiplicação (*) e divisão (/). Exiba o resultado da operação solicitada.
 
 - [x] 10. Escreva um programa para aprovar o empréstimo bancário para compra de uma casa. O programa deve receber o valor da casa a ser comprada, o salário do comprador e a quantidade de anos a pagar. O valor da prestação mensal não pode ser superior a 30% do salário. Calcule o valor da prestação como sendo o valor da casa a comprar dividido pelo número de meses a pagar. O programa deve apresentar as mensagens "Empréstimo aprovado" ou "Empréstimo não aprovado".
+
+:arrow_left: [voltar](../README.md)

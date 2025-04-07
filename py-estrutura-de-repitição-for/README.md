@@ -70,13 +70,13 @@ print("Média: %5.2f" % (soma/5))
 ```
 ## Exercícios
 
-- [] **Exercício 1**: Analise o desempenho de uma turma de 10 alunos em uma disciplina de linguagem de programação. Seu programa deve receber como entrada 10 números entre 0 e 10, representando as médias finais de cada aluno. Para cada média na lista, o programa deve:
+- [x] **Exercício 1**: Analise o desempenho de uma turma de 10 alunos em uma disciplina de linguagem de programação. Seu programa deve receber como entrada 10 números entre 0 e 10, representando as médias finais de cada aluno. Para cada média na lista, o programa deve:
 
 - Adicionar a média à soma total das médias (para posterior cálculo da média da turma).
 - Verificar se a média é maior ou igual a 5. Se for, incrementar o contador de alunos aprovados.
 - Se a média for menor que 5, incrementar o contador de alunos reprovados.
 
-- [] **Exercício 2**: Desenvolva um programa que recebe 7 idades de usuários na entrada. Para cada idade, o programa deve imprimir a categoria correspondente de acordo com a seguinte escala:
+- [x] **Exercício 2**: Desenvolva um programa que recebe 7 idades de usuários na entrada. Para cada idade, o programa deve imprimir a categoria correspondente de acordo com a seguinte escala:
 
 |Categoria|Faixa Etária|
 |---|---|
@@ -85,13 +85,13 @@ print("Média: %5.2f" % (soma/5))
 |Maior de idade|De 18 a 59 anos|
 |Idoso|60 anos ou mais|
 
-- [] **Exercício 3**: Faça um programa que receba 10 idades, pesos e alturas, calcule e mostre:
+- [x] **Exercício 3**: Faça um programa que receba 10 idades, pesos e alturas, calcule e mostre:
 
 - a média das idades das 10 pessoas
 - a quantidade de pessoas com peso superior a 90kg e altura inferior a 1,50m.
 - a porcentagem de pessoas com idade entre 10 e 30 anos entre as pessoas que medem mais de 1,90m.
 
-- [] **Exercício 4**: Faça um programa que receba um número, calcule e mostre a tabuada desse número. Exemplo:
+- [x] **Exercício 4**: Faça um programa que receba um número, calcule e mostre a tabuada desse número. Exemplo:
 
 ```py
 Digite um número: 5
@@ -108,3 +108,5 @@ Digite um número: 5
 5 x 9 = 45
 5 x 10 = 50
 ```
+
+:arrow_left: [voltar](../README.md)
