@@ -11,8 +11,10 @@
 :link: [Lista 04](py-estrutura-de-repetição-while/README.md)
 
 ## Estrutura de repetição For
-:link: [Lista 05](py-estrutura-de-repitição-for/README.md)
+:link: [Lista 05](py-estrutura-de-repetição-for/README.md)
 
+## Estrutura de repetição Aninhadas
+:link: [Lista 06](py-estrutura-de-repetição-aninhadas/README.md)
 
 
 
